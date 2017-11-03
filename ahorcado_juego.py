@@ -117,7 +117,7 @@ def choose_char(frase_juego, frase_tapada, contador):
             else:
                 os.system("cls")
                 cabecera_juego()
-                print(IMAGES[contador-1])
+                print(IMAGES[contador])
                 print("")
                 print(frase_actualizada)
                 print("Intendo {} fallido ".format(contador))
