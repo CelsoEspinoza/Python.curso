@@ -1,0 +1,45 @@
+Booleanos(bool):
+	True, False
+
+Cadenas(str)
+
+Listas:
+	>>>[1,2,3,"hola",[1,2,3]] ; [1,"Hola",True]
+
+Diccionario : {"clave":"valor"}
+	>>>{"nombre":"Celso"]
+
+Tuplas: No se pueden editar
+	>>>(22, True, "una tupla", (1,2))
+
+Longitud de una cadena, lista, tupla, etc:
+	>>>len("key")
+	3
+
+Tipo de dato:
+	>>> type(4)
+	< type int >
+
+Aplicar conversión a un conjunto como una lista:
+	>>> map(string, [1,2,3,4])
+	['1','2','3','4']
+
+Redondear un flotante con x flotante:
+	>>> round(6.3154,1)
+	6.3
+
+Generar un rango en una lista:
+	>>> range(5)
+	[0,1,2,3,4]
+
+Suma de conjunto:
+	>>> sum([1,2,4])
+	7
+
+Organizar un conjunto:
+	>>> sorted([5,2,1])
+	[1,2,5]
+
+ 
+
+
