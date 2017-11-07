@@ -105,13 +105,13 @@ def choose_char(frase_juego, frase_tapada, contador):
 
         if cont == 0:
             contador += 1
-            if contador == 7:
+            if contador == 6:
                 os.system("cls")
                 cabecera_juego()
                 print("¡Fuiste ahorcado! Perdiste el juego...")
                 print("La frase era :")
                 print(frase_juego)
-                print(IMAGES[contador-1])
+                print(IMAGES[contador])
                 input("")
                 break
             else:

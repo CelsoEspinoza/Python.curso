@@ -1,4 +1,6 @@
 
+#Algoritmo para hallar cualquier valor de la ecuación formada por la regresión
+#lineal.
 
 def main():
     contador = 0
@@ -7,8 +9,9 @@ def main():
     agrega_valores(listax, listay, contador)
     b = pendiente(listax,listay)
     a = valor_a(listax,listay, b)
+    R2 = valor_R2(listax,listay)
+    print("El valor del R2 es {}".format(R2))
     pronostico_lineal(a,b)
-
 
 
 def agrega_valores(listax, listay, contador):
