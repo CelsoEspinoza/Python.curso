@@ -6,7 +6,7 @@ def main():
     if char_choisen == "_":
         print("Todas la letras se repitan más de una vez")
     else:
-        print("La primera letra que se repite es: {}".format(char_choisen))
+        print("La primera letra que NO se repite es: {}".format(char_choisen))
 
 
 
